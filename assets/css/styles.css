@@ -1,0 +1,136 @@
+:root {
+    --white-color: #FFFFFF;
+    --black-color: #000000 ;
+    --gray-color: #ACACAC;
+    --purple-input-color: #313146;
+    --purple-back-color: #1D1C3B;
+    --purple-black-back-color: #0a0831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    padding: 2% 10%;
+    background-color: var(--purple-black-back-color);
+}
+
+.conteudo_principal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo_principal__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    gap: 20px;
+}
+
+.container__titulo {
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.container__pesquisa {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pesquisa__input {
+    height: 60px;
+    width: 634px;
+    outline: none;
+    color: var(--white-color);
+    padding: 10px;
+    background-color: var(--purple-input-color);
+    box-shadow: transparent;
+    border-radius: 8px;
+}
+
+.pesquisa__input::placeholder {
+    color: var(--gray-color);
+}
+
+.pesquisa__icon {
+    background-color: var(--purple-black-back-color);
+    color: var(--white-color);
+    border: transparent;
+    cursor: pointer;
+}
+
+.container__checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 10px;
+}
+
+.checkbox__paragrafo {
+    color: var(--white-color);
+}
+
+.conteudo_principal__filme {
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo_principal__movie {
+    max-width: 1224px;
+    display: flex;
+    padding: 5px 29px;
+    box-shadow: 10px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: var(--purple-back-color);
+}
+
+.movie__imagem {
+    width: 139px;
+    height: 139px;
+    margin-top: 12px;
+}
+
+
+.movie__avalicoes {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+.avaliacoes__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.avalicoes__titulo {
+    color: var(--white-color);
+    font-size: 18px;
+}
+
+.avaliacoes {
+    display: flex;
+    gap: 40px;
+}
+
+.avalicoes__pontuacoes {
+    display: flex;
+    color: var(--white-color);
+    align-items: center;
+    gap: 10px;
+}
+
+.avaliacoes__paragrafo {
+    color: var(--gray-color);
+    font-size: 18px;
+}
