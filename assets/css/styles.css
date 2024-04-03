@@ -94,6 +94,12 @@ body {
     background-color: var(--purple-back-color);
 }
 
+.conteudo_principal__imagem {
+    min-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 .movie__imagem {
     width: 139px;
     height: 139px;
@@ -110,27 +116,31 @@ body {
 .avaliacoes__container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
     gap: 20px;
 }
 
 .avalicoes__titulo {
     color: var(--white-color);
-    font-size: 18px;
 }
 
-.avaliacoes {
+.avaliacoes__container {
     display: flex;
-    gap: 40px;
 }
 
 .avalicoes__pontuacoes {
     display: flex;
+}
+
+.pontuacoes__imagem2 {
+    padding-left: 30px;
+}
+
+.pontuacoes__pontos2, .pontuacoes__pontos1 {
     color: var(--white-color);
-    align-items: center;
-    gap: 10px;
+    padding-left: 8px;
 }
 
 .avaliacoes__paragrafo {
     color: var(--gray-color);
-    font-size: 18px;
 }
